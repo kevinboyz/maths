@@ -3,6 +3,7 @@ import vue from '@vitejs/plugin-vue'
 import { resolve } from 'path'
 
 export default defineConfig({
+  base: '/maths/', // Iyi niyo ntambwe y'ingenzi yerekana aho umushinga uherereye
   plugins: [vue()],
   resolve: {
     alias: {
